@@ -9,7 +9,7 @@ import time
 
 
 
-def repeat(n)
+def repeat(n):
     for i in range(n):
         driver = webdriver.Chrome("/Users/responsify/Desktop/selenium_project/drivers/chromedriver")
         driver.set_page_load_timeout(10)
